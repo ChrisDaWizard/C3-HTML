@@ -3,4 +3,57 @@ body {
     background-color: #f4f4f4;
     color: #333;
     margin: 20px;
+  } 
+
+
+
+  .LEGO{
+
+    width: 50%;
+    height: auto;
   }
+
+  .card {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+
+
+
+
+
+  }
+
+
+
+  #titulos{
+    display: flexbox;
+    align-items: center;
+    flex-direction: row;
+
+  }
+
+
+ #card-container{
+  background-color: aqua;
+  width: 88vw;
+  margin: auto;
+  margin-top: 1.5em;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+
+
+
+ }
